@@ -96,7 +96,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-	background-color: #0080ff;
+	background-color: #333333;
 	color: white;
 }
 
@@ -127,8 +127,8 @@ div.box {
 button {
 	font-size: 20px;
 	font-weight: 800;
-	color: #fff;
-	background-color: grey;
+	color: white;
+	background-color: #47476b;
 	padding: 18px 40px;
 	display: block;
 	text-align: center;
@@ -150,7 +150,7 @@ div.leftside-col {
 }
 
 div.rightside-col {
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 h1.section-to-header {
@@ -186,6 +186,27 @@ form h2 {
 	color: #fff;
 }
 
+footer.footsy {
+	background-color: #666;
+	padding-left: 10%;
+}
+
+footer.footsy h1 {
+	color: white;
+	font-size: 25px;
+}
+
+footer.footsy ul {
+	list-style: none;
+	text-align: left;
+	padding-left: 0px;
+}
+
+footer.footsy ul li {
+	color: white;
+	font-size: 23px;
+	line-height: 1.5;
+}
 /*################# MOBILE #####################*/
 
 
@@ -241,5 +262,11 @@ form h2 {
 		margin: 0;
 		overflow: hidden;
 	}
+
+	div.mobilestack {
+		width: 50%;
+		display:block;
+	}
+
 }
 
