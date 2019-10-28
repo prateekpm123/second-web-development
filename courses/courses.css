@@ -108,9 +108,10 @@ ul.topnav li.dropdownicon {
 .science {
 	text-decoration: none;
 	padding: 20px;
+	display: block;
 }
 
-.commerce {
+.commerce , .science, .diploma, .arts{
 	padding: 20px;
 	position:  center ;
 }
@@ -130,6 +131,17 @@ ul.topnav li.dropdownicon {
 
 .science img {
   transition: transform .5s ease;
+  display: block;
+}
+
+.diploma img {
+  transition: transform .5s ease;
+  display: block;
+}
+
+.arts img {
+  transition: transform .5s ease;
+  display: block;
 }
 
 
@@ -144,4 +156,11 @@ ul.topnav li.dropdownicon {
   transform: scale(1.5);
 }
 
-
+p {
+	display: block;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px, 5px;
+	background-color: #f3f0f5;
+	margin: 20px;
+}
