@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<nav>
+		<ul class="topnav" id="dropdownclick">
+			<li><a href="homepage.php">Home</a></li>
+			<li><a href="courses.php">Courses</a></li>
+			<li><a href="contactus.php">Contact us</a></li>
+			<li class="topnav-right"><a href="signup1.php">Sign in</a></li>
+			<li class="topnav-right"><a href="signup1.php">Sign up</a></li>
+			<li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+		</ul>
+	</nav>
+	<!-- <div class="container" width="100%" max-height="300px"> -->
+	<img class="container-img" src="contactus.jpg">
+	<!-- </div> -->
+	<h1 class="contactus-h1">Contact us</h1>
+	<div class="row">
+		<div class="col-6">
+			<div class="form-group" id="contact-1">
+				<!-- <div class="form-group"> -->
+					<form action="#" method="post" class="contact">
+						<div class="row">
+							<div class="col-3">
+								<label>Name</label>
+							</div>
+							<div class="col-9">
+								<input type="text" name="name" placeholder="Enter you name">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-3">
+								<label>Email</label>
+							</div>
+							<div class="col-9">
+								<input type="email" name="email" placeholder="Enter you Email">
+							</div>						
+						</div>
+						<div class="row">
+							<div class="col-3">
+								<label>Subject</label>
+							</div>
+							<div class="col-9">
+								<input type="text" name="subject" placeholder="Enter your Subject">
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col-3">
+								<label>Enter your Message</label>
+							</div>
+							<div class="col-9">	
+								<textarea type="text" name="message" class="" placeholder="Enter your Subject" id="message" height="600px" width="100px"></textarea>
+							</div>
+						</div>	
+						<div class="row" id="submit-button">
+							<button type="submit" class="btn-btn-primary">Submit</button>
+						</div>
+					</form>
+
+				<!-- </div> -->
+			</div>
+		</div>
+		<div class="col-6">
+			<div class="right-side">
+				<div class="row info">
+					<img src="https://img.icons8.com/ios-glyphs/60/000000/gmail.png">
+					<p>example@gmail.com</p>
+				</div>
+				<div class="row info">
+					<img src="https://img.icons8.com/wired/64/000000/phone.png">
+					<p>900-1234-2121</p>
+				</div>
+				<div class="row info">
+					<img src="https://img.icons8.com/pastel-glyph/64/000000/worldwide-location--v1.png">
+					<p>Address of your company</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+	<script type="text/javascript">
+		
+		function dropdownMenu()
+		{
+			var x = document.getElementById("dropdownclick");
+
+			if(x.className === "topnav") 
+			{
+				x.className += " responsive";
+				// change topnav to topnav responsive which trigram is clicked
+			}
+			else 
+			{
+				x.className = "topnav";
+			}
+		}
+		
+		
+
+	</script>
+
+
+</body>
+</html>
